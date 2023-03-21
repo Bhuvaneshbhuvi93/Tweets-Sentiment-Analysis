@@ -16,6 +16,8 @@ This project allows you to collect tweets for a specific keyword or hashtag, wit
 
 * Installation
 
+* NLTK
+
 First, ensure that you have Python 3.x installed on your machine.
 
 Install the required packages by running the following command:
@@ -79,23 +81,9 @@ def create_dataframe(tweet_list):
 
 6.**Download as JSON:** The user can also download the Dataframe
 
-## Setup and Execution
+## Sentiment Analysis
 
-1.**Clone the repository:** Clone the repository to your local machine using the following command:
-```
-git clone https://github.com/<username>/twitter-scraper.git
-
-```
-2.**Install the dependencies:** Install the required dependencies using the following command:
-```
-pip install -r requirements.txt
-
-```
-3.**Run the application:** Run the application using the following command:
-```
-streamlit run twitter_scraping.py
-```
-Access the application: The application will be available at **`http://localhost:8501/`**
+"Sentiment analysis is a method for comprehending and interpreting the emotions or viewpoints expressed in a text. It entails analyzing the text's language to determine whether it conveys a positive😀, negative😔, or neutral😐 sentiment. Businesses and individuals can use this information to better comprehend how people feel about their products, services, or topics of interest, and to make more informed decisions.
 
 ## Note
 * The mongodb should be running on your local machine in order to use the upload to mongodb functionality
