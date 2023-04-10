@@ -10,7 +10,7 @@ st.set_page_config(
 
 st.title("🐦Tweet Scrapping")
 st.write("Twitter scraping involves collecting data or scraping data from Twitter's website using web scraping techniques. It can be used for various purposes such as sentiment analysis, social media monitoring, trend analysis, and more.")
-st_player("")
+st_player("https://www.youtube.com/watch?v=27P268Q7pE0")
 
 st.header("😶Sentiment Analysis")
 st.write(""""Sentiment analysis is a method for comprehending and interpreting the emotions or viewpoints expressed in a text. 
